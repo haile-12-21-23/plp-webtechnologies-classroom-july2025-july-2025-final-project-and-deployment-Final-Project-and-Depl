@@ -88,3 +88,29 @@ Deploy your project and confirm that:
 * Clean, well-organized, and commented code
 * Successful live deployment with a working link
 * Evidence of following best practices
+
+
+# Portfolio Website
+
+This is my multipage portfolio website built with **HTML5, CSS3, and JavaScript**.
+
+## Features
+- Responsive layout with Flexbox/Grid
+- Mobile menu toggle
+- CSS transitions & animations
+- Contact form with JS validation
+- Multipage structure (Home, About, Projects, Contact)
+
+## Structure
+- `index.html` (Home)
+- `about.html` (About Me)
+- `projects.html` (Projects Showcase)
+- `contact.html` (Contact Form)
+- `css/styles.css` (Styling & animations)
+- `js/script.js` (Interactivity)
+
+## Deployment
+Deployed on [GitHub Pages / Netlify / Vercel].
+
+## Live URL
+👉 [Your Live Link Here]
