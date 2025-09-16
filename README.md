@@ -1,116 +1,89 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# Multipage Portfolio Website
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
-
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
-
----
-
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
-
-Before you write any code, take time to plan:
-
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
-
-**Goal:** Show intentional structure and user journey across the site.
+This is a multipage portfolio website built using **HTML5, CSS3, and JavaScript**.
+It showcases my skills, projects, and contact information, with a responsive design and interactive elements.
 
 ---
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+## Step 1: Planning & Organizing
+Before development, the website was carefully planned:
 
-Using your plan, begin building:
-
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
-
-Each page should:
-
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
-
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+- **Purpose:** Portfolio website to showcase my skills, projects, and contact details.
+- **Pages:**
+  1. Home
+  2. About
+  3. Projects
+  4. Contact
+- **Navigation:** A consistent navbar links all pages.
+- **Layout:** Each page has a header, main content section, and footer.
+- **Sketch/Layout:** Planned sections with headings, content blocks, buttons, and forms for interactivity.
 
 ---
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+## Step 2: Building the Website
+The website was developed with the following:
 
-Before deployment, refactor your project to follow production-friendly practices:
-
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
-
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
-
----
-
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
-
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
+- **HTML5:** Semantic structure using `<header>`, `<main>`, `<footer>`.
+- **CSS3:**
+  - Responsive design using Flexbox and Grid.
+  - CSS transitions and keyframe animations for hover effects and page elements.
+- **JavaScript:**
+  - Mobile menu toggle for smaller screens.
+  - Contact form validation with success/error messages.
+  - Optional interactive animations (scroll-based, button-triggered).
 
 ---
 
-## Deliverables
+## Step 3: Code Organization & Best Practices
+To ensure maintainability and readability:
 
-1. A GitHub repository containing:
+- **Folder Structure:**
+portfolio-website/
+│── index.html
+│── about.html
+│── projects.html
+│── contact.html
+│── css/
+│ └── styles.css
+│── js/
+│ └── script.js
 
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
+
+- **Best Practices Followed:**
+  - Clear and modular code
+  - Meaningful file and class names
+  - Comments explaining sections
+  - Tested on multiple screen sizes (desktop & mobile)
 
 ---
 
-## Outcome
+## Step 4: Deployment
+The site is deployed online and accessible via **GitHub Pages**:
 
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+- **Live Website URL:**
+[https://haile-12-21-23.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/](https://haile-12-21-23.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/)
+- **Deployment Steps:**
+  1. Push the local project to GitHub repository.
+  2. Go to **Settings → Pages → Source → main branch**.
+  3. Save and get the live URL generated by GitHub Pages.
 
-
-# Portfolio Website
-
-This is my multipage portfolio website built with **HTML5, CSS3, and JavaScript**.
+---
 
 ## Features
-- Responsive layout with Flexbox/Grid
-- Mobile menu toggle
-- CSS transitions & animations
-- Contact form with JS validation
-- Multipage structure (Home, About, Projects, Contact)
+- Multipage structure with Home, About, Projects, and Contact pages
+- Mobile-responsive layout
+- CSS animations and hover effects
+- Interactive mobile menu toggle
+- Contact form with JavaScript validation
+- Clean, modular, and well-commented code
 
-## Structure
-- `index.html` (Home)
-- `about.html` (About Me)
-- `projects.html` (Projects Showcase)
-- `contact.html` (Contact Form)
-- `css/styles.css` (Styling & animations)
-- `js/script.js` (Interactivity)
+---
 
-## Deployment
-Deployed on [GitHub Pages / Netlify / Vercel].
+## GitHub Repository
+All project files are available here:
+[https://github.com/haile-12-21-23/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl](https://github.com/haile-12-21-23/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl)
 
-## Live URL
-👉 [Your Live Link Here]
+---
+
+## Screenshots (Optional)
+You can add screenshots inside `/images/screenshots/` to showcase each page.
